@@ -36,6 +36,6 @@ class FindingS():
 			else :
 				continue
 
-#FOR EXAMPLE
+#Example
 s = FindingS(1,[1,0,1],[[4,5,6],[2,7,4],[9,6,4]])
 s.trainS()
