@@ -1,3 +1,6 @@
+Find - S is a type of concept learning which initializes the hypothesis to be most specific. It then starts
+ replacing the specific hypothesis with more general values as it learns from the training set. 
+
 This repo contains python class - findingS
 
 This class can be used to train a concept learning algorithm called Find S.
