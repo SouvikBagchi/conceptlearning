@@ -1,5 +1,4 @@
 class FindingS():
-
 	#INITIALIZE THE CLASS WITH THE INPUT OF OUTCOME AND TRAINING ATTRIBUTE LIST
 	def __init__(self,positive_outcome,no_of_attributes,result_list,attribute_list):
 		#FIND OUT WHAT IS LISTED AS AN POSITIVE OUTCOME
@@ -42,17 +41,16 @@ class FindingS():
 		for i in range(0,self.attribute_len):
 			#COMPARE ALL THE ATTRIBUTES 
 			#CHECH IF THE HYPOTHESIS IS GENERIC - "?"
-			if self.hypothesis[i] == "?":
-				continue
-			else :
+			if self.hypothesis[i] != "?":
 				if self.hypothesis[i] != attributes[i]:
 					return(0)
+			else :
+				continue
 
 		return(1)
 
-
-
-
 #Example
-s = FindingS(1,3,[1,0,1],[[4,5,6],[2,7,4],[9,6,4]])
+s = FindingS(1,3,[1,0,1],[[4,5,6],[2,5,4],[9,5,4]])
 s.trainS()
+s.resultS([3,4,5])
+s.resultS([3,5,5])
