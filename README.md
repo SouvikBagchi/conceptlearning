@@ -1,12 +1,12 @@
-Find - S is a type of concept learning which initializes the hypothesis to be most specific. It then starts
- replacing the specific hypothesis with more general values as it learns from the training set. 
+<h1>Find - S is a type of concept learning which initializes the hypothesis to be most specific. It then starts
+ replacing the specific hypothesis with more general values as it learns from the training set.<h1>
 
-This repo contains python class - findingS
+<h2>This repository contains python class - findingS<h2>
 
 This class can be used to train a concept learning algorithm called Find S.
 The class is initialized by mentioning the following variables -
 
-positive_outcome - the value of the positive outcome in the result_set (eg. 'true', 1 etc.)
+`<addr>` positive_outcome - the value of the positive outcome in the result_set (eg. 'true', 1 etc.)
 
 no_of_attributes - the number of attributes in the training set
 
